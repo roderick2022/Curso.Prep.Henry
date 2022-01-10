@@ -1,0 +1,25 @@
+h1{
+    color:rgb(241, 16, 16);
+}
+
+img{
+    width: 400px;
+
+}
+
+#thirdiv{
+    height: 600px;
+    width: 500px;
+    background-color:rgb(127, 80, 255);
+    padding: 50px;
+    border: 30px rgb(111, 0, 139) solid;
+} 
+
+#spanid{
+    font-size: 18px;
+    margin: 50px;
+}
+
+body{
+    background-image: cross-fade();
+}
