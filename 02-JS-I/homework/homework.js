@@ -62,7 +62,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-return x = y;
+return x === y
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -100,7 +100,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x % y
+ return x % y
 }
 
 function esPar(num) {
@@ -169,9 +169,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0){
-    return "es positivo"
+    return "Es positivo"
   } else if(numero < 0){
-    return "es negativo"
+    return "Es negativo"
   }if (numero === 0){
     return false
   }
@@ -196,7 +196,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola "+nombre+"!"
+  return "Hola "+nombre+"!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -225,7 +225,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro/1.2
+  return euro*1.2
 }
 
 
